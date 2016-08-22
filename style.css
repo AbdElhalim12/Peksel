@@ -30,8 +30,9 @@ ul li:hover{
 	background-image: url(img/macbook.jpeg);	
 /*	background-image: url(header.jpg);*/
 	/*background-color: #3dacff;*/
-	background-size: cover;
-	height: 600px;
+	background-size: 1300px;
+	width: 1300px;
+	height: 400px;
 	padding: 0;
 	
 }
@@ -160,4 +161,10 @@ img {
 	text-align: center;
 	height: 50px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.us {
+	margin-left: 20px;
+	margin-top: 60px;
+	height: 70px;
 }
