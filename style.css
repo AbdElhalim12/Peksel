@@ -9,6 +9,7 @@ ul {
 	list-style-type: none;
 	display: inline-block;
 	float: right;
+	margin-right: 20px;
 }
 
 li {
@@ -36,7 +37,14 @@ ul li:hover{
 	padding: 0;
 	
 }
-
+.overlay{
+	margin-top: 0px;
+	height: 3%0PX;
+ width: 100%;
+		background-image: url(img/macbook.jpeg);
+  background-position-y: -200px;
+	background-position-x: -10px;
+}
 /*.overlay {
 	top:0;
 	height: 600PX;
@@ -62,12 +70,14 @@ h1 {
 	margin-left: 10px;
 	 transition: color 1000ms linear;
 	font-family: 'Montserrat', sans-serif;
+	
+
 }
 
 pre {
 	margin-top: auto;
 	color: black;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -152,9 +162,11 @@ h10 {
 }
 
 img {
+	z-index: -1;
 	width: 500px;
 	margin-top: 100px;
 	font-family: 'Montserrat', sans-serif;
+	position: relative;
 }
 
 .what {
