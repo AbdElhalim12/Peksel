@@ -180,3 +180,8 @@ img {
 	margin-top: 60px;
 	height: 70px;
 }
+
+.logo .icon i {
+	color: black;
+	margin-top: 30px;
+}
