@@ -36,7 +36,7 @@ ul li a:hover{
 }
 
 .logo {
-
+	
 }
 
 .header {
@@ -188,7 +188,7 @@ img {
 }
 
 .us {
-	margin-left: 20px;
+	margin-left: 90px;
 	margin-top: 60px;
 	height: 70px;
 }
@@ -206,19 +206,11 @@ text-decoration: none;
 
 .back {
 	position :fixed; 
-	bottom: 0;
+	bottom: 5px;
 	width: 30px;
 	height: 30px;
 	background-color: orange;
-	right: 0;
+	right: 5px;
 
 }
 
-.circule {
-	border-radius: 50%;
-	background-color: #002472;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	height: 50px;
-}
